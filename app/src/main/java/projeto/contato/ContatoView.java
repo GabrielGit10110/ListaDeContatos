@@ -146,12 +146,6 @@ public class ContatoView {
 
 	private static void selectEditOptions(char opt, Contato contato,
 			Scanner input) {
-
-
-
-		System.out.println("Digite a data de nascimento"+
-				"(dd/MM/yyyy): ");
-
 		switch(opt) {
 			case 'N':
 				System.out.println("Digite o novo "+
